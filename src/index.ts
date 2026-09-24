@@ -1,4 +1,4 @@
-import { serve } from "@hono/node-server";
+// import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { logger } from "hono/logger";
 import { cors } from "hono/cors";
@@ -134,9 +134,9 @@ app.route(
   })
 );
 
-serve({ fetch: app.fetch, port }, (info) => {
-  console.log(`🛒 商城 API 服务已启动: http://localhost:${info.port}`);
-  console.log(`📚 接口文档: http://localhost:${info.port}/docs`);
-});
+// serve({ fetch: app.fetch, port }, (info) => {
+//   console.log(`🛒 商城 API 服务已启动: http://localhost:${info.port}`);
+//   console.log(`📚 接口文档: http://localhost:${info.port}/docs`);
+// });
 
 export default app;
