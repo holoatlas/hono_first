@@ -2,7 +2,7 @@
  * 种子数据脚本：创建管理员、测试用户、分类、商品
  * 运行：pnpm db:seed
  */
-import { hash } from "@node-rs/argon2";
+import { hash } from "argonia";
 import { drizzle } from "drizzle-orm/postgres-js";
 import postgres from "postgres";
 import * as schema from "./schema";

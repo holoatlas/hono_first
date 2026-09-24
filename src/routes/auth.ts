@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { describeRoute, validator as zValidator } from "hono-openapi";
 import { z } from "zod/v4";
-import { hash, verify } from "@node-rs/argon2";
+import { hash, verify } from "argonia";
 import { eq, or } from "drizzle-orm";
 import { db } from "../db";
 import { users } from "../db/schema";

@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.14.0",
-    "@node-rs/argon2": "^2.0.2",
     "@scalar/hono-api-reference": "^0.12.2",
+    "argonia": "^1.0.3",
     "drizzle-orm": "^0.44.2",
     "hono": "^4.7.10",
     "hono-openapi": "^1.3.3",
